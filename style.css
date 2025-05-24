@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+    --cool-slate:      #6C727F;   
+    --light-gray:      #E5E7EB;   
+    --off-white:       #F9FAFB;   
+    --pure-white:      #FFFFFF;   
+    --pure-black:      #000000;   
+    --royal-blue:      #284BCE;   
+    --dark-slate:      #394150;   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--off-white);
+    color: var(--pure-black);
+}
+
+main {
+    padding: 4rem;
+}
+
+main img {
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 1rem;
+}
+
+main h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+main p {
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--cool-slate);
+    margin: 0 auto;
+    max-width: 740px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+main .newsletter-container {
+    max-width: 600px;
+    width: 100%;
+    background-color: var(--pure-white);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+}
+
+main .newsletter-container input {
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0.6rem;
+    border: 2px solid var(--light-gray);
+    background-color: var(--off-white);
+    color: var(--dark-slate);
+    font-weight: 500;
+    font-family: inherit;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+main .newsletter-container input::placeholder {
+    color: var(--dark-slate);
+    font-weight: 500;
+}
+
+main .newsletter-container .error {
+    font-style: italic;
+    font-size: 0.875rem;
+    margin-bottom: 0.6rem;
+    display: block;
+    color: red;
+}
+
+main .newsletter-container .spam {
+    font-size: 0.875rem;
+    text-align: center;
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+main .newsletter-container button {
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0.6rem;
+    border: none;
+    background-color: var(--royal-blue);
+    color: var(--pure-white);
+    font-weight: 600;
+    font-family: inherit;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: 0.2s ease;
+}
+
+main .newsletter-container button:hover {
+    background-color: color-mix(in srgb, #284BCE 90%, white 10%);
+}
+
+main .newsletter-container .spam {
+    font-size: 0.875rem;
+    text-align: center;
+    display: block;
+    color: var(--cool-slate);
+}
+
+footer {
+    text-align: center;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
+footer a,
+footer a:visited {
+    text-decoration: none;
+}
