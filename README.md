@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://your-demo-link.vercel.app" target="_blank">
+    <a href="https://yashi-singh-9.github.io/Join-Our-Newsletter/" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/your-username/join-our-newsletter-solution" target="_blank">
+    <a href="https://devchallenges.io/solution/50766" target="_blank">
       Solution
     </a>
     <span> | </span>
@@ -48,14 +48,13 @@ This project is a solution to the [Join Our Newsletter](https://devchallenges.io
 * How to structure semantic HTML5 markup.
 * Responsive web design using Flexbox and media queries.
 * Best practices for form styling and accessibility.
-* Using utility-first frameworks (like TailwindCSS) to speed up development.
+* Using utility-first frameworks to speed up development.
 * Hosting and deploying a project with Vercel/GitHub Pages/Netlify.
 
 ---
 
 ### 📚 Useful Resources
 
-* [TailwindCSS Documentation](https://tailwindcss.com/docs) – Helped streamline styling and layout.
 * [CSS Tricks - Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) – A go-to reference for layout design.
 * [Google Fonts](https://fonts.google.com/) – For integrating beautiful, performant fonts.
 
@@ -73,7 +72,7 @@ This project is a solution to the [Join Our Newsletter](https://devchallenges.io
 * ✅ Responsive newsletter subscription form
 * ✅ Validates required email input
 * ✅ Styled error and success states
-* ✅ Clean, modern layout using Tailwind
+* ✅ Clean, modern layout 
 * ✅ Deployed and accessible via a live demo link
 
 This site was created as part of a [DevChallenges](https://devchallenges.io/) frontend practice challenge.
@@ -86,10 +85,10 @@ This site was created as part of a [DevChallenges](https://devchallenges.io/) fr
 ![Desktop Design](design/desktop-design.png)
 
 **Tablet Design**  
-![Tablet Design](design/tablet-design.png)
+<img src="design/tablet-design.png" height="750px">
 
 **Mobile Design**  
-![Mobile Design](design/mobile-design.png)
+<img src="design/mobile-design.png" height="750px">
 
 --- 
 
@@ -108,7 +107,6 @@ open index.html
 ## 🤝 Acknowledgements
 
 * [DevChallenges.io](https://devchallenges.io/) for the challenge
-* [TailwindCSS](https://tailwindcss.com/)
 * [Font Awesome](https://fontawesome.com/) or other icons if used
 * [Vercel](https://vercel.com/) for free hosting
 
@@ -116,7 +114,7 @@ open index.html
 
 ## 🧑‍💻 Contact
 
-* LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+* LinkedIn: [Yashi Singh](https://www.linkedin.com/in/yashi-singh-b4143a246)
 
 ---
 
