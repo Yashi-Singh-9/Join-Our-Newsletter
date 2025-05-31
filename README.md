@@ -25,9 +25,9 @@
 ## 📌 Table of Contents
 
 * [Overview](#overview)
-
   * [What I Learned](#what-i-learned)
   * [Useful Resources](#useful-resources)
+* [Project Structure](#project-structure)
 * [Built With](#built-with)
 * [Features](#features)
 * [Screenshot](#screenshot)
@@ -48,7 +48,7 @@ This project is a solution to the [Join Our Newsletter](https://devchallenges.io
 * How to structure semantic HTML5 markup.
 * Responsive web design using Flexbox and media queries.
 * Best practices for form styling and accessibility.
-* Using utility-first frameworks to speed up development.
+* Using utility-first frameworks and Bootstrap to speed up development.
 * Hosting and deploying a project with Vercel/GitHub Pages/Netlify.
 
 ---
@@ -57,6 +57,29 @@ This project is a solution to the [Join Our Newsletter](https://devchallenges.io
 
 * [CSS Tricks - Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) – A go-to reference for layout design.
 * [Google Fonts](https://fonts.google.com/) – For integrating beautiful, performant fonts.
+* [Bootstrap 5](https://getbootstrap.com/docs/5.3/getting-started/introduction/) – Responsive and flexible front-end components.
+
+---
+
+## 📁 Project Structure
+
+```
+Join-Our-Newsletter/
+├── index.html
+├── README.md
+├── design/
+│   ├── desktop-design.png
+│   ├── tablet-design.png
+│   └── mobile-design.png
+├── resources/
+│   ├── images/
+│   │   ├── favicon.ico
+│   │   └── logo.svg
+│   ├── style/
+│   │   └── style.css
+│   └── script/
+│       └── script.js
+```
 
 ---
 
@@ -64,6 +87,8 @@ This project is a solution to the [Join Our Newsletter](https://devchallenges.io
 
 * Semantic HTML5 markup
 * CSS custom properties
+* [Bootstrap 5](https://getbootstrap.com/) – For layout, spacing, and responsiveness
+* [Google Fonts - Poppins](https://fonts.google.com/specimen/Poppins)
 
 ---
 
@@ -72,7 +97,7 @@ This project is a solution to the [Join Our Newsletter](https://devchallenges.io
 * ✅ Responsive newsletter subscription form
 * ✅ Validates required email input
 * ✅ Styled error and success states
-* ✅ Clean, modern layout 
+* ✅ Clean, modern layout using Bootstrap and custom styles
 * ✅ Deployed and accessible via a live demo link
 
 This site was created as part of a [DevChallenges](https://devchallenges.io/) frontend practice challenge.
@@ -100,15 +125,18 @@ To run this project locally:
 git clone https://github.com/Yashi-Singh-9/Join-Our-Newsletter.git
 cd Join-Our-Newsletter
 open index.html
-```
+````
+
+Or simply open `index.html` in your browser after cloning.
 
 ---
 
 ## 🤝 Acknowledgements
 
 * [DevChallenges.io](https://devchallenges.io/) for the challenge
-* [Font Awesome](https://fontawesome.com/) or other icons if used
-* [Vercel](https://vercel.com/) for free hosting
+* [Font Awesome](https://fontawesome.com/) – If icons are used
+* [GitHub Pages Docs](https://pages.github.com/) – For project deployment
+* [Bootstrap](https://getbootstrap.com/) – For layout and utilities
 
 ---
 
@@ -118,4 +146,4 @@ open index.html
 
 ---
 
-Feel free to ⭐ this repo or share it with others if you found it helpful!
+⭐ Feel free to star this repo or share it if you found it helpful!
